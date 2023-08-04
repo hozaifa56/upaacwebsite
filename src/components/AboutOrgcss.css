@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.part1{
+    width: 100%;
+    height: 50vh;
+    background-image: url('../images/aboutbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.part2{
+    color: black;
+    display: inline;
+}
+.dataabout{
+    font-size: large;
+    height: 30vh;
+    width: 70vw;
+}
+.wrapper{
+    display: flex;
+}
+#moon{
+    width:400px;
+    height:400px;
+    margin-right:10px;
+}
+@media screen and (max-width: 767px) {
+    .part2{
+        display:flex;
+        flex-direction: column;
+    }
+    .wrapper{
+        display:flex;
+        flex-direction: column;
+    }
+    .dataabout{
+        font-size: smaller;
+    }
+    #moon{
+        height: 250px;
+        width: 250px;
+    }
+
+
+}

@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* homecss.css */
+.part1-home {
+  height: 70vh;
+
+  background-image: url('../images/homebg.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.align-middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+h1 {
+  margin: 10px;
+}
+.part2 {
+  height: 70vh;
+  color: white;
+  display: flex;
+}
+.reasons{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+}
+.reasons span{
+    height: 3vh;
+    width: 18vw;
+}
+/* Add your existing CSS styles here */
+
+/* For screens with a maximum width of 767px (mobile devices) */
+@media screen and (max-width: 767px) {
+  .part1 {
+    padding: 2rem 1rem; /* Adjust the padding for smaller screens */
+  }
+
+  .part2 {
+    flex-direction: column; /* Change to a vertical layout for smaller screens */
+    font-size: small;
+    height: 100vh;
+  }
+  iframe {
+    height: 100px;
+  }
+  .part2 div {
+    margin: 1rem 0; /* Add some spacing between the content on smaller screens */
+  }
+
+  .video {
+    width: 80%; /* Make the video container full width on smaller screens */
+  }
+
+  .video iframe {
+    width: 80%; /* Make the embedded video full width on smaller screens */
+    height: 120px; /* Adjust the height to fit the video proportionally */
+  }
+  .cr {
+    font-size: small;
+  }
+  .reasons{
+    font-size: smaller;
+    word-wrap: break-word;
+  }
+}

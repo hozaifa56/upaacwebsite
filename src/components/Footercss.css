@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.data{
+    display: flex;
+    justify-content:space-around;
+  }
+  .services ul{
+    list-style-type: none;
+  }
+  .olink ul{
+    list-style-type: none;
+  }
+  .git{
+    word-wrap: normal;
+  }
+  .newsletter{
+    word-wrap: normal;
+    width: 25%;
+  }
+  .foot hr{
+    margin-left: 10%;
+    width: 80%;
+    color: black;
+  }
+  .services a{
+    color: white;
+  }
+  
+/* Add your existing CSS styles here */
+
+/* For screens with a maximum width of 767px (mobile devices) */
+@media screen and (max-width: 767px) {
+    .foot {
+      padding: 2rem 1rem; /* Adjust the padding for smaller screens */
+    }
+  
+    .data {
+      flex-direction: column; /* Change to a vertical layout for smaller screens */
+      font-size: small;
+    }
+    .newsletter{
+        width: 100%;
+    }
+    .data div {
+      margin: 1rem 0; /* Add some spacing between the content on smaller screens */
+    }
+  
+    .git {
+      text-align: center; /* Center the content on smaller screens */
+    }
+  
+    .git p {
+      margin: 0.5rem 0; /* Add some spacing between the paragraphs on smaller screens */
+    }
+  
+    .services ul {
+      padding-left: 1rem; /* Add left padding to the list items on smaller screens */
+    }
+  
+    .cr {
+      text-align: center; /* Center the copyright text on smaller screens */
+    }
+  }
+  

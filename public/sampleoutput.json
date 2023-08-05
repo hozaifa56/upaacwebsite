@@ -1,0 +1,224 @@
+[
+    {
+        "id": 1,
+        "title":"Sombrero Galaxy M104",
+        "src": "/gallery1/apoy.jpg",
+        "p1": "Image Credit: Insight Observatory Team ",
+        "p2":"Processing Credit and Copyright: Utkarsh Mishra",
+        "p3":"Winner of Astrophotographer of the year 2022"
+    },
+    {
+        "id": 2,
+        "title":"Cone Nebula NGC2264",
+        "src": "/gallery1/apod1.png",
+        "p1": "Image Credit: Insight Observatory Team ",
+        "p2":"Processing Credit and Copyright: Utkarsh Mishra",
+        "p3":"Winner of Astronomy Picture of the day, NASA"
+    },
+    {
+        "id": 3,
+        "title":"Pelican Nebula IC5070",
+        "src": "/gallery1/apod2.png",
+        "p1": "Image Credit: Insight Observatory Team ",
+        "p2":"Processing Credit and Copyright: Utkarsh Mishra",
+        "p3":"Winner of Astronomy Picture of the day, NASA"
+    },
+    {
+        "id": 4,
+        "title":"S106",
+        "src": "/gallery1/apod3.png",
+        "p1": "Image credit: NASA, ESA , Hubble legacy archive ",
+        "p2":"Processing Credit and Copyright: Utkarsh Mishra",
+        "p3":"Winner of Astronomy Picture of the day, NASA"
+    },
+    {
+        "id": 5,
+        "title":"Pencil Nebula Supernova Shockwave",
+        "src": "/gallery1/apod3.png",
+        "p1": "Image credit and copyright: Utkarsh Mishra and Greg Turgeon",
+        "p2":"",
+        "p3":"Winner of Astronomy Picture of the day, NASA"
+    },
+    {
+        "id": 6,
+        "title":"Witch head Nebula",
+        "src": "/gallery1/apod5.png",
+        "p1": "Image credit: Digitized Sky Survey ",
+        "p2":"Processing credit: Utkarsh Mishra",
+        "p3":"Winner of Astronomy Picture of the day, NASA"
+    }, 
+    {
+        "id": 7,
+        "title":"Southern Pinwheel Galaxy",
+        "src": "/gallery1/aapod1.jpeg",
+        "p1": "Image credit and copyright: Utkarsh Mishra and Matt Dieterich ",
+        "p2":"",
+        "p3":"Winner of Amateur Astronomy Picture of the day"
+    }
+    , 
+    {
+        "id": 8,
+        "title":"Anteater Nebula",
+        "src": "/gallery1/aapod2.jpeg",
+        "p1": "Image credit and copyright: Utkarsh Mishra and Zhuoqun Wu",
+        "p2":"",
+        "p3":"Winner of Amateur Astronomy Picture of the day"
+    }, 
+    {
+        "id": 9,
+        "title":"PARASMOMI-1",
+        "src": "/gallery1/aapod3.jpeg",
+        "p1": "Image credit: Patrick Dufour",
+        "p2":"Processing credit and copyright: Utkarsh Mishra",
+        "p3":"Winner of Amateur Astronomy Picture of the day"
+    }, 
+    {
+        "id": 10,
+        "title":"NGC5907",
+        "src": "/gallery1/aapod4.jpeg",
+        "p1": "Image credit: Insight observatory team",
+        "p2":"Processing credit and copyright: Utkarsh Mishra",
+        "p3":"Winner of Amateur Astronomy Picture of the day"
+    }, 
+    {
+        "id": 11,
+        "title":"Comet A1 Leonard With M3 Globular Cluster",
+        "src": "/gallery1/apoyi.jpeg",
+        "p1": "Image credit: Insight observatory team",
+        "p2":"Processing credit and copyright: Utkarsh Mishra",
+        "p3":"RunnerUp of India's Astrophotographer of the year 2022"
+    }
+    , 
+    {
+        "id": 12,
+        "title":"NGC253",
+        "src": "/gallery1/bbc.jpeg",
+        "p1": "Image credit: Deep Sky Chile",
+        "p2":"Processing credit and copyright: Utkarsh Mishra and Frank Jobard",
+        "p3":"Published in BBC sky at night magazine and Sky & Telescope magazine"
+    }, 
+    {
+        "id": 13,
+        "title":"New Discovery Tilak Nebula",
+        "src": "/gallery1/tilakND.jpeg",
+        "p1": "Image credit: Insight observatory team",
+        "p2":"Processing credit and copyright: Utkarsh Mishra and Sankalp Mohan",
+        "p3":""
+    }, 
+    {
+        "id": 14,
+        "title":"New Discovery Pebble Nebula",
+        "src": "/gallery1/PebbleND.jpeg",
+        "p1": "Image credit: Insight observatory team",
+        "p2":"Processing credit and copyright: Utkarsh Mishra and Sankalp Mohan",
+        "p3":""
+    }
+    , 
+    {
+        "id": 15,
+        "title":"North America Nebulaa",
+        "src": "/gallery1/apod1h.jpeg",
+        "p1": "Image credit: Telescope Live team",
+        "p2":"Processing credit and copyright: Harshwardhan Pathak",
+        "p3":"Winner of Astronomy Picture of the day, NASA; Published in Sky and Telescope magazine"
+    }, 
+    {
+        "id": 16,
+        "title":"Cigar Galaxy",
+        "src": "/gallery1/apod2h.jpeg",
+        "p1": "Image credit: NASA, ESA, Hubble legacy archive",
+        "p2":"Processing credit and copyright: Harshwardhan Pathak",
+        "p3":"Winner of Astronomy Picture of the day, NASA"
+    }, 
+    {
+        "id": 17,
+        "title":"ETA Carina Nebula",
+        "src": "/gallery1/ETAcarina.jpeg",
+        "p1": "Image credit: Telescope Live team",
+        "p2":"Processing credit and copyright: Harshwardhan Pathak",
+        "p3":"Winner of Astronomy Picture of the day, Astronomia"
+    }, 
+    {
+        "id": 18,
+        "title":"Orion Nebula M42",
+        "src": "/gallery1/orion.jpeg",
+        "p1": "Image credit: LCO observatory",
+        "p2":"Processing credit and copyright: Harshwardhan Pathak",
+        "p3":"Winner of HOYS Astrophotography competition 2023"
+    }
+    , 
+    {
+        "id": 19,
+        "title":"Tulip to cresent Nebula",
+        "src": "/gallery1/cresent.jpeg",
+        "p1": "Image credit: Telescope Live team",
+        "p2":"Processing credit and copyright: Harshwardhan Pathak",
+        "p3":"Winner of Picture of the month Earthsky Science "
+    }, 
+    {
+        "id": 20,
+        "title":"IC1396",
+        "src": "/gallery1/ic1396.jpeg",
+        "p1": "Image credit: Telescope Live team",
+        "p2":"Processing credit and copyright: Harshwardhan Pathak",
+        "p3":"Winner of Picture of the month Earthsky Science "
+    }, 
+    {
+        "id": 21,
+        "title":"NGC7000",
+        "src": "/gallery1/apoih.jpeg",
+        "p1": "Image credit: Telescope Live team",
+        "p2":"Processing credit and copyright: Harshwardhan Pathak",
+        "p3":"RunnerUp of India's Astrophotographer of the year 2022  "
+    }, 
+    {
+        "id": 22,
+        "title":"Swan Nebula",
+        "src": "/gallery1/swan.jpeg",
+        "p1": "Image credit: Telescope Live team",
+        "p2":"Processing credit and copyright: Harshwardhan Pathak",
+        "p3":"Published in BBC Sky at night magazine "
+    }, 
+    {
+        "id": 23,
+        "title":"Sun",
+        "src": "/gallery1/sun.jpeg",
+        "p1": "Image credit: Harshwardhan Pathak",
+        "p2":"Processing credit and copyright: Harshwardhan Pathak",
+        "p3":"APOD in Astrophotography india community"
+    }, 
+    {
+        "id": 24,
+        "title":"Saraswati SuperCluster",
+        "src": "/gallery1/saraswati.jpg",
+        "p1": "Discovery:Saraswati supercluster was discovered by team of astrophysicists from the Inter-University Centre for Astronomy and Astrophysics and Indian Institute of Science Education and Research led by Joydeep Bagchi and colleagues in Pune, India. Our Ex-educator Shishir Sankhyan was part of team.",
+        "p2":"",
+        "p3":""
+    },
+    {
+        "id": 25,
+        "title":"Solar Eclipse 25 October 2022 ",
+        "src": "/gallery1/soleclipse.png",
+        "p1": "Image credit: Hozaifa Shakeel",
+        "p2":"",
+        "p3":""
+    },
+    {
+        "id": 26,
+        "title":"Saturn Jupiter Conjunction 22 December 2020  ",
+        "src": "/gallery1/satjupi.jpeg",
+        "p1": "Image credit: Hozaifa Shakeel",
+        "p2":"",
+        "p3":""
+    }
+    ,
+    {
+        "id": 27,
+        "title":" Earthshine ",
+        "src": "/gallery1/earthshine.jpg",
+        "p1": "Image credit: Hozaifa Shakeel",
+        "p2":"",
+        "p3":""
+    }
+    
+]

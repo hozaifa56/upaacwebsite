@@ -6,7 +6,7 @@ import AboutOrg from './components/AboutOrg';
 import AboutMAV from './components/AboutMAV';
 import Contact from './components/Contact';
 import { BrowserRouter as Router,Routes, Route } from 'react-router-dom';
-import Gallery from './components/Gallery';
+import GalleryItem from './components/GalleryItem';
 
 
 function App() {
@@ -14,16 +14,17 @@ function App() {
     <div className="App">
       <Router>
       <Navbar />
+
         <Routes>
         <Route path='/' element={<Home/>}/>
           <Route path='/Home' element={<Home/>}/>
           <Route path='/AboutOrg' element={<AboutOrg/>}/>
           <Route path='/AboutMAV' element={<AboutMAV/>}/>
           <Route path='/Contact' element={<Contact/>}/>
-          <Route path='/Gallery' element={<Gallery/>}/>
+          <Route path='/GalleryItem' element={<GalleryItem/>}/>
         </Routes>
-        
-  
+
+
 
       <Footer />
       </Router>

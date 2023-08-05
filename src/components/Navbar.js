@@ -26,7 +26,7 @@ export default function Navbar() {
                                 </ul>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/Gallery">Accolades</Link>
+                                <Link className="nav-link" to="/GalleryItem">Gallery</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/Home">Registration</Link>

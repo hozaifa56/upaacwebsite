@@ -273,7 +273,7 @@ export default function Gallery() {
                         <p>Image credit: Hozaifa Shakeel</p>
                     </div>
                 </div>
-
+                
                 {/* Add more cards as needed */}
             </div>
         </div>

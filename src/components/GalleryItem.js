@@ -34,7 +34,7 @@ export default function GalleryItem() {
                             <div className="card bg-dark text-white">
                                 <img src={item.src} className="card-image" alt="..." />
                                 <div className="card-info">
-                                    <h5 className="card-text">{item.title}</h5>
+                                    <h4 className="card-text">{item.title}</h4>
                                     <p className="card-text">{item.p1}</p>
                                     <p className="card-text">{item.p2}</p>
                                     <p className="card-text">{item.p3}</p>

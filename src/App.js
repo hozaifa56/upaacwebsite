@@ -9,6 +9,7 @@ import { BrowserRouter as Router,Routes, Route } from 'react-router-dom';
 import GalleryItem from './components/GalleryItem';
 import Download from './components/Download';
 import Blog from './components/Blog';
+import Registration from './components/Registration';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     <div className="App">
       <Router>
       <Navbar />
+
         <Routes>
         <Route path='/' element={<Home/>}/>
           <Route path='/Home' element={<Home/>}/>
@@ -25,6 +27,7 @@ function App() {
           <Route path='/GalleryItem' element={<GalleryItem/>}/>
           <Route path='/Download' element={<Download/>}/>
           <Route path='/Blog' element={<Blog/>}/>
+          <Route path='/Registration' element={<Registration/>}/>
         </Routes>
       <Footer />
       </Router>

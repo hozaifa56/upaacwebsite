@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-
 }
 .part1{
     width: 100%;
@@ -29,6 +28,9 @@
     width:400px;
     height:400px;
     margin-right:10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+    box-shadow: 10px 10px 15px black;
 }
 @media screen and (max-width: 767px) {
     .part2{
@@ -40,7 +42,7 @@
         flex-direction: column;
     }
     .dataabout{
-        font-size: smaller;
+        font-size: small;
     }
     #moon{
         height: 250px;

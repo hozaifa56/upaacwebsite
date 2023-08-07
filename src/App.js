@@ -7,6 +7,7 @@ import AboutMAV from './components/AboutMAV';
 import Contact from './components/Contact';
 import { BrowserRouter as Router,Routes, Route } from 'react-router-dom';
 import GalleryItem from './components/GalleryItem';
+import Download from './components/Download';
 
 
 function App() {
@@ -14,7 +15,6 @@ function App() {
     <div className="App">
       <Router>
       <Navbar />
-
         <Routes>
         <Route path='/' element={<Home/>}/>
           <Route path='/Home' element={<Home/>}/>
@@ -22,9 +22,9 @@ function App() {
           <Route path='/AboutMAV' element={<AboutMAV/>}/>
           <Route path='/Contact' element={<Contact/>}/>
           <Route path='/GalleryItem' element={<GalleryItem/>}/>
+          <Route path='/Download' element={<Download/>}/>
         </Routes>
-
-
+        
 
       <Footer />
       </Router>

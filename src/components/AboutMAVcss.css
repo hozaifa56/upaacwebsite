@@ -23,12 +23,15 @@
 }
 @media screen and (max-width: 767px) {
     .wrapper{
-        font-size: x-small;
+        font-size: medium;
         display: flex;
         flex-direction: column;
     }
     #filler2{
-        height: 140px;
-        width: 140px;
+        height: 300px;
+        width: 300px;
+    }
+    .part2{
+        height: auto;
     }
 }

@@ -11,8 +11,8 @@ export default function AboutOrg() {
       <div className='part2 my-5 mx-5'>
         <h1>Know about UPAAC</h1><br />
         <div className='wrapper'>
-          <div className='dataabout'>
-            <p className=' container text-wrap'>
+          <div className='dataabout '>
+            <p className=' container my-5 text-wrap'>
               UPAAC, Uttar Pradesh amateur astronomers club is an astronomy club established by amateur and professional
               astronomers under the guidance of scientists, professors, lecturers, teachers and research
               scholars from various prestigious collages.UPAAC is not just a club, it represents the passion
@@ -20,8 +20,8 @@ export default function AboutOrg() {
               renewable energy, scientific practical approach for concepts, mathematical concepts, outreach events and astronomy tourism.
             </p>
           </div>
-          <div>
-            <img id='moon' className='my-3' src={filler1} />
+          <div className='my-3'>
+            <img id='moon' className='my-5' src={filler1} />
           </div>
         </div>
       </div>

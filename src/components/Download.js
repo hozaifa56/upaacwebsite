@@ -8,7 +8,7 @@ export default function Download() {
     return (
         <div>
             <div className='part1'>
-                <h1 style={{ color: 'white' }}><u>Astrophotography Softwares</u></h1>
+                <h1 style={{ color: 'white' }}><u>Astrophotography <span style={{ color: 'orange' }}>Softwares</span></u></h1>
             </div>
             <div className='part2download'>
                 <div className='autostakkert text-wrap'>
@@ -26,7 +26,7 @@ export default function Download() {
                         astrophotographers, helping them produce stunning images of planets and the Moon by
                         extracting the best details from their video or image sequences.</p>
 
-                    <button onClick={() => window.location.href = 'https://www.autostakkert.com/wp/download/'}>
+                    <button className="btn-primary"onClick={() => window.location.href = 'https://www.autostakkert.com/wp/download/'}>
                         Download AutoStakkert
                     </button>
                     <p className='partition my-2' style={{ width: '100%', height: '0.5vh', backgroundColor: 'orange' }}></p>
@@ -41,7 +41,7 @@ export default function Download() {
                         from their planetary and lunar imaging sessions. Its user-friendly interface and powerful features
                         make it a valuable tool for amateur and professional astronomers alike.</p>
 
-                    <button onClick={() => window.location.href = 'https://pipp.software.informer.com/download/'}>
+                    <button className="btn-primary" onClick={() => window.location.href = 'https://pipp.software.informer.com/download/'}>
                         Download PIPP
                     </button>
                     <p className='partition my-2' style={{ width: '100%', height: '0.5vh', backgroundColor: 'orange' }}></p>
@@ -50,7 +50,7 @@ export default function Download() {
                 <img src={rs} alt=".." style={{ height: '100px', width: '100px' }} />
                     <p>RegiStax is a widely used software tool in astrophotography for processing and enhancing planetary and lunar images. Developed by Cor Berrevoets, it offers advanced image stacking and alignment algorithms, allowing users to combine and align multiple frames to create high-quality composite images. The software also includes various post-processing features, such as wavelet sharpening and noise reduction, which help reveal finer details in the captured images. RegiStax's intuitive interface and powerful image processing capabilities make it a popular choice among astronomers for improving the quality and clarity of their planetary and lunar photographs.</p>
 
-                    <button onClick={() => window.location.href = 'https://www.astronomie.be/registax/download.html'}>
+                    <button className="btn-primary" onClick={() => window.location.href = 'https://www.astronomie.be/registax/download.html'}>
                         Download RegiStax
                     </button>
                     <br/><br/>

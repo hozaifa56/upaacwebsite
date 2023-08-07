@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "title":"TAKING DEEP BREATHS OF STARLIGHT",
+        "p1": "BY: JENNIFER WILLIS AUGUST 3, 2023 ",
+        "p2":"Isaac Asimov famously said, “If my doctor told me I had only six minutes to live, I wouldn't brood. I’d type a little faster.”But what if you had only a few nights before major surgery? Would you stargaze a little faster?I’ve had the opportunity to find out.",
+        "url":"https://skyandtelescope.org/astronomy-blogs/taking-deep-breaths-of-starlight/"
+    },
+    {
+        "id": 2,
+        "title":"CONTACT LOST WITH VOYAGER 2, BUT HEARTBEAT SIGNALS IT'S STILL ALIVE",
+        "p1": "BY: DAVID DICKINSON AUGUST 2, 2023 ",
+        "p2":"NASA detected a faint “heartbeat” signal from Voyager 2, after an erroneous command caused the spacecraft to lose contact with Earth.",
+        "url":"https://skyandtelescope.org/astronomy-news/glitch-causes-voyager-2-to-briefly-lose-contact-with-earth/"  
+    }
+]

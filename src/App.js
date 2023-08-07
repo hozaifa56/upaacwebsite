@@ -8,6 +8,7 @@ import Contact from './components/Contact';
 import { BrowserRouter as Router,Routes, Route } from 'react-router-dom';
 import GalleryItem from './components/GalleryItem';
 import Download from './components/Download';
+import Blog from './components/Blog';
 
 
 function App() {
@@ -23,9 +24,8 @@ function App() {
           <Route path='/Contact' element={<Contact/>}/>
           <Route path='/GalleryItem' element={<GalleryItem/>}/>
           <Route path='/Download' element={<Download/>}/>
+          <Route path='/Blog' element={<Blog/>}/>
         </Routes>
-        
-
       <Footer />
       </Router>
     </div>

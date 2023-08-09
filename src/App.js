@@ -10,6 +10,7 @@ import GalleryItem from './components/GalleryItem';
 import Download from './components/Download';
 import Blog from './components/Blog';
 import Registration from './components/Registration';
+import Member from './components/Member';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           <Route path='/GalleryItem' element={<GalleryItem/>}/>
           <Route path='/Download' element={<Download/>}/>
           <Route path='/Blog' element={<Blog/>}/>
+          <Route path='/Member' element={<Member/>}/>
           <Route path='/Registration' element={<Registration/>}/>
         </Routes>
       <Footer />

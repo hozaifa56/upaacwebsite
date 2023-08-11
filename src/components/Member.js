@@ -32,8 +32,7 @@ export default function Member() {
                         <div>
                             <ul>
                                 <li>
-                                    <p className='card-text'>UPAACid Number: {item.id} - {item.name} {item.doj}</p>
-                                    <p className="card-text"> </p></li>
+                                    <p className='card-text'>UPAACid Number: {item.id} - {item.Name} Date Of Joining: {item.doj}</p></li>
                             </ul>
                         </div>
                     </div>

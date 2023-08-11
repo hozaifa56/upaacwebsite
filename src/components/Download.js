@@ -2,6 +2,7 @@ import React from 'react';
 import '../components/Downloadcss.css';
 import as from '../images/as.png';
 import rs from '../images/rs.ico';
+import stellarium from '../images/stellarium.png';
 
 
 export default function Download() {
@@ -11,7 +12,7 @@ export default function Download() {
                 <h1 style={{ color: 'white' }}><u>Astrophotography <span style={{ color: 'orange' }}>Softwares</span></u></h1>
             </div>
             <div className='part2download'>
-                <div className='autostakkert text-wrap'>
+                <div className='autostakkert my-2 text-wrap'>
                     <img src={as} alt=".." style={{ height: '100px', width: '100px' }} />
                     <p>AutoStakkert! (AS!3 or AS!2) is a popular image stacking software used in astrophotography,
                         specifically for processing planetary and lunar images. Developed by Emil Kraaikamp, it is
@@ -26,7 +27,7 @@ export default function Download() {
                         astrophotographers, helping them produce stunning images of planets and the Moon by
                         extracting the best details from their video or image sequences.</p>
 
-                    <button className="btn-primary"onClick={() => window.location.href = 'https://www.autostakkert.com/wp/download/'}>
+                    <button className="btn-primary" onClick={() => window.location.href = 'https://www.autostakkert.com/wp/download/'}>
                         Download AutoStakkert
                     </button>
                     <p className='partition my-2' style={{ width: '100%', height: '0.5vh', backgroundColor: 'orange' }}></p>
@@ -47,13 +48,24 @@ export default function Download() {
                     <p className='partition my-2' style={{ width: '100%', height: '0.5vh', backgroundColor: 'orange' }}></p>
                 </div>
                 <div className='registax text-wrap'>
-                <img src={rs} alt=".." style={{ height: '100px', width: '100px' }} />
+                    <img src={rs} alt=".." style={{ height: '100px', width: '100px' }} />
                     <p>RegiStax is a widely used software tool in astrophotography for processing and enhancing planetary and lunar images. Developed by Cor Berrevoets, it offers advanced image stacking and alignment algorithms, allowing users to combine and align multiple frames to create high-quality composite images. The software also includes various post-processing features, such as wavelet sharpening and noise reduction, which help reveal finer details in the captured images. RegiStax's intuitive interface and powerful image processing capabilities make it a popular choice among astronomers for improving the quality and clarity of their planetary and lunar photographs.</p>
 
                     <button className="btn-primary" onClick={() => window.location.href = 'https://www.astronomie.be/registax/download.html'}>
                         Download RegiStax
                     </button>
-                    <br/><br/>
+                    <p className='partition my-2' style={{ width: '100%', height: '0.5vh', backgroundColor: 'orange' }}></p>
+                    <br /><br />
+                </div>
+                <div className='stellarium text-wrap'>
+                    <img src={stellarium} alt=".." style={{ height: '100px', width: '100px' }} />
+                    <p>Developed by a dedicated team of astronomers, programmers, and volunteers, Stellarium is a powerful planetarium software that brings the universe to your fingertips. It accurately simulates the night sky and provides a comprehensive view of celestial objects, constellations, and phenomena. Whether you're an amateur astronomer, educator, or just curious about the cosmos, Stellarium offers an engaging platform to explore and learn about the beauty and mysteries of the universe. Its user-friendly interface, customizable settings, and vast celestial database make it an indispensable tool for stargazing and astronomical education.</p>
+
+                    <button className="btn-primary" onClick={() => window.location.href = 'https://stellarium.org/'}>
+                        Download Stellarium
+                    </button>
+                    
+                    <br /><br />
                 </div>
             </div>
         </div>

@@ -24,7 +24,7 @@ export default function Member() {
     return (
         <div>
             <div className='part1'>
-                <h1 style={{ color: 'white' }}><u>Members of <span style={{ color: 'orange' }}>UPAAC</span></u></h1>
+                <h1 style={{ color: 'white' }}><u>Lifetime Members of <span style={{ color: 'orange' }}>UPAAC</span></u></h1>
             </div>
             <div className='text-start my-5'>
                 {data.map((item) => (
